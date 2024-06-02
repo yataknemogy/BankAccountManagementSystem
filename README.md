@@ -1,27 +1,27 @@
-# Создание системы для управления банковскими счетами
+# Bank Account Management System
 
-Этот проект представляет собой систему для управления банковскими счетами с различными функциями для клиентов и банковских работников.
+This project is a system for managing bank accounts with various functions for clients and bank employees.
 
-## Основные компоненты
+## Main Components
 
-1. **BankAccount**: Представляет информацию о банковском счете (номер счета, баланс, владелец счета и т.д.).
-2. **BankCustomer**: Представляет клиента банка (имя, адрес, номер клиентского счета и т.д.).
-3. **Bank**: Хранит информацию о клиентах и счетах, предоставляет методы для управления ими (создание счета, закрытие счета, перевод средств, проверка баланса и т.д.).
+1. **BankAccount**: Represents information about a bank account (account number, balance, account holder, etc.).
+2. **BankCustomer**: Represents a bank customer (name, address, customer account number, etc.).
+3. **Bank**: Stores information about customers and accounts, provides methods for managing them (creating an account, closing an account, transferring funds, checking balance, etc.).
 
-## Основные функции
+## Main Features
 
-1. Создание нового банковского счета.
-2. Закрытие существующего банковского счета.
-3. Перевод средств между счетами.
-4. Проверка баланса счета.
-5. Отслеживание истории операций с счетами (например, запись всех операций в журнал).
+1. Create a new bank account.
+2. Close an existing bank account.
+3. Transfer funds between accounts.
+4. Check account balance.
+5. Track account transaction history (e.g., log all transactions).
 
-## Дополнительные функции
+## Additional Features
 
-1. Учет процентов по сберегательным счетам.
-2. Логирование операций.
-3. Оповещение клиента о низком балансе счета или других событиях.
+1. Interest calculation for savings accounts.
+2. Operation logging.
+3. Notify clients of low account balance or other events.
 
-## Лицензия
+## License
 
-Этот проект лицензирован по лицензии MIT. См. файл `LICENSE` для подробностей.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
